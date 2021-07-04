@@ -101,7 +101,7 @@ struct FloatType
             std::cout << "\nwarning error, integer division by zero returns 'inf' !"  << std::endl;
         }
         
-            return lhs / rhs;
+        return lhs / rhs;
     }
 
 
@@ -130,7 +130,7 @@ struct DoubleType
             std::cout << "\nwarning error, integer division by zero returns 'inf' !"  << std::endl;
         }
         
-            return lhs / rhs;
+        return lhs / rhs;
     }
 
 };
@@ -159,7 +159,7 @@ struct IntType
             return 0;
         }
                     
-            return lhs / rhs;
+        return lhs / rhs;
                          
     }
 
