@@ -152,7 +152,7 @@ struct IntType
     }
     int divide( int lhs, int rhs )
     {
-        if(rhs == 0.0f)
+        if(rhs == 0)
         { 
             std::cout << "\nwarning error, integer division by zero will crash the program!"  << std::endl;
             std::cout << "returning lhs" << std::endl;
