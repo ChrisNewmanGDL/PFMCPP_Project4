@@ -155,8 +155,8 @@ struct IntType
         if(rhs == 0.0f)
         { 
             std::cout << "\nwarning error, integer division by zero will crash the program!"  << std::endl;
-            std::cout << "returning lhs" << std::endl << lhs << std::endl;
-            return 0;
+            std::cout << "returning lhs" << std::endl;
+            return lhs;
         }
                     
         return lhs / rhs;
