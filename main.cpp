@@ -289,7 +289,7 @@ void part3()
     std::cout << it.multiply(it).divide(0).divide(0.0f).divide(0.0) << std::endl;
 
     std::cout << "FloatType x IntType  =  " << it.multiply( static_cast<int>( ft )) << std::endl;
-    std::cout << "(IntType + DoubleType + FloatType) x 24 = " << it.add( static_cast<int>(ft) ).add( static_cast<int>(ft) ).multiply( 24 ) << std::endl;
+    std::cout << "(IntType + DoubleType + FloatType) x 24 = " << it.add( static_cast<int>(dt) ).add( static_cast<int>(ft) ).multiply( 24 ) << std::endl;
 }
 
 /*
@@ -312,7 +312,7 @@ int main()
     //assign heap primitives
     FloatType ft ( 2.0f );
     DoubleType dt ( 2 );
-    IntType it ( 2 ) ;
+    IntType it ( 2 );
 
     std::cout << "FloatType add result=" << ft.add( 2.0f ) << std::endl;
     std::cout << "FloatType subtract result=" << ft.subtract( 2.0f ) << std::endl;
